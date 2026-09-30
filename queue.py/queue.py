@@ -37,12 +37,17 @@ class Queue:
 
 
 queue=Queue()
+
 queue.enqueue(10)
 queue.enqueue(20)
 queue.enqueue(30)
+
 print(queue.is_empty())
 print(queue.is_full())
+
 print(queue.dequeue())
+
 queue.enqueue(40)
+
 print(queue.peek())
 print(queue.rare())
